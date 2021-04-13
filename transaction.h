@@ -5,7 +5,7 @@
 using namespace std;
 
 struct Transaction {
-        private:
+
                 Transaction * prev;
                 int amount;
                 std::string sender;
@@ -20,6 +20,7 @@ class Blockchain {
                 void add(int amount, std::string sender, std::string receiver);
                 int getBalance(std::string person);
                 void print();
+		void print(Transaction* head);
         private:
                 Transaction * head;
 };
