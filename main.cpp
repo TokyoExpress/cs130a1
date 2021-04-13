@@ -15,7 +15,7 @@ int main(){
 
                 cout << "Welcome to the transaction-chain application..." << endl;
                 cout << "1) Add a transaction to the chain." << endl;
-                cout << "2) Find Balance of a person." << endl;
+                cout << "2) Find balance of a person." << endl;
                 cout << "3) Print the chain." << endl;
                 cout << "4) Exit." << endl;
                 cout << "Which operation do you want to make? (1, 2, 3, 4):" << endl;
